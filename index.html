@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Envelope + Letter (Open/Close on Click)</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dear Fatin.</strong>
+                        <p>
+                            tq for everything atinn!!! i know you i like you.you know when i start fall in love at you? dari kau tawar aku makan kueh time kita bekumpul di tapak tgah kolej time tu kita di sruh kmpul untk hari alam sekitar. jujur lh yh atin aku org nya susah suka org tapi ndak tau bla aku tgok kau bckap dgan kau aku selalu rasa selesa aku orgnya atin sebenarnya susah mau bckap dgan perempuan ndak da keyakinan dri ku klau dpan perempuan tpi bla aku bcakap dgan kau semua bnda tu hlang. from that day until now my feelings at you never change. sorry yah kalau aku selalu buat kau rimas selalu buat kau ndak selesa selalu buat kau marah dengan aku. one more time tq for everything.. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
